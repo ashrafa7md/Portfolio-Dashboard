@@ -113,6 +113,11 @@ body{
             margin: 0 var(--default-padding);
          }
     }
+      @include mobile{
+        &:last-child{
+                margin-bottom: 3rem;
+        }
+     }
 
 }
 .name{
